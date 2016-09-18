@@ -1,0 +1,145 @@
+/*nav{
+  display: inline;
+}
+*/
+.top-bar:after{
+  clear: both;
+}
+.font{
+  font-family: arial,sans-serif;
+}
+.layout{
+  margin-right: 2%;
+  margin-top: 2%;
+}
+.layout .sign-in{
+  padding-right: 1%;
+  padding-left: 1%;
+  margin-top: -.5%;
+}
+.layout .google-icon{
+  padding-right: 2%;
+  padding-left: 1%;
+}
+.layout .images{
+  padding-right: 1%;
+  padding-left: 1%;
+}
+.layout .gmail{
+  padding-right: 1%;
+  padding-left: 1%;
+}
+/* This is for the blue button  */
+.sign-in{
+  display: inline-block;
+  border: 1px solid #4285f4;
+  background-color: #4285f4;
+  border-radius: 3px;
+  padding: 8px 15px;
+  float: right;
+}
+.sign-in a{
+  color: white;
+}
+/* This is for the weird grid icon  */
+.google-icon{
+  display: inline-block;
+  float: right;
+}
+/* this is for Images link*/
+.images{
+  display: inline-block;
+  float: right;
+}
+/* This is where the Gmail is */
+.gmail{
+float: right
+}
+a{
+  text-decoration: none;
+  color: #666;
+}
+/* Image logo settings*/
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  padding-top: 100px;
+}
+/* Search bar settings*/
+input{
+  width: 40%;
+  height: 30px;
+  margin-left: 29%;
+  margin-right: 30%;
+  margin-top: 2.3%;
+  font-size: 24px;
+}
+/* button settings */
+.buttons{
+  font-family: arial, sans-serif;
+  display: inline-block;
+  margin-left: 38%;
+  margin-right: auto;
+  margin-top: 2.5%;
+}
+.google-search{
+  border: 1px solid #f2f2f2;
+  border-radius: 3px;
+  color: #757575;
+  background-color: #f2f2f2;
+  padding: 10px 16px;
+  text-align: center;
+}
+
+.im-feeling{
+  border: 1px solid #f2f2f2;
+  border-radius: 3px;
+  color: #757575;
+  background-color: #f2f2f2;
+  padding: 10px 16px;
+  clear: both;
+}
+.google-search:hover{
+  border: 1px solid #c6c6c6;
+  color: black;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+.im-feeling:hover{
+  border: 1px solid #c6c6c6;
+  color: black;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+/* Footer settings*/
+footer{
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+}
+.container{
+  font-family: arial,sans-serif;
+  color: #666;
+  font-size: 14px;
+  border-top: 1px solid #e4e4e4;
+  background: #f2f2f2;
+  line-height: 40px;
+  margin-top: 30%;
+}
+.container a:hover{
+  text-decoration: underline;
+}
+.left a{
+    padding-right: 10px;
+    padding-left: 25px;
+}
+.right{
+  display: inline;
+  float: right;
+}
+.right a{
+  padding-left: 10px;
+  padding-right: 25px;
+  margin: 0;
+}
